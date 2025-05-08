@@ -1,0 +1,7 @@
+*{ /*config global das css*/
+    height: 100%;
+    
+}body{
+    background-image: radial-gradient(circle,#4905FC,#0511FC,#05AEFC) ;
+    background-attachment: fixed;
+}
