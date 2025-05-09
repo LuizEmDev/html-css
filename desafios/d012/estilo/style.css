@@ -15,11 +15,10 @@ html, body{
     margin: 0px;
 }
 p{
-    font-size: 30px;
-    margin-left: 30px;
-    line-height: 1.2em;
-    
-    
+    font-size: 80px;
+    padding-left: 30px;
+    line-height: 2em;
+       
 }
 
 header{
@@ -36,9 +35,11 @@ header{
 header h1{
     padding-top: 40px;
     font-variant: small-caps;
+    font-size: 140px;
 }
 header p{
     padding-bottom: 40px;
+    font-size: 1.7em;
 }
 header a, footer, footer a{
     text-align: center;
@@ -46,6 +47,9 @@ header a, footer, footer a{
     font-weight: bolder;
     color: white;
 
+}
+a:hover{
+    text-decoration: underline;
 }
 
 section{
@@ -59,17 +63,23 @@ section.background{
     color: black;
     
 }
-section.backimage{
+section.backimage#img01{
     background: rgba(0, 0, 0, 0.281) url('../imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
     
     
         
 }
+section.backimage#img02{
+    background: rgba(0, 0, 0, 0.281) url('../imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
 
 section.backimage > p{
     background-color: rgba(0, 0, 0, 0.26);
-    max-width: 300px;
+    min-width: 300px;
+    max-width: 1000px;
+    
 }
 footer{
     background-color: rgb(107, 106, 106);
@@ -77,4 +87,5 @@ footer{
 
 footer p{
     color: black;
+    font-size: 1.4em;
 }
