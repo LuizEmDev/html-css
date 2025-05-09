@@ -1,1 +1,64 @@
 @charset "UTF-8"
+/*
+CLASSE COM FUNDO BRANCO= background
+
+CLASSE COM IMAGEM= backimage
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header p{
+    padding-bottom: 50px;
+}
+header a, footer, footer a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+
+}
+
+section{
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+section.background{
+    background-color: white;
+    color: black;
+    
+}
+section.backimage{
+    background-color: rgb(124, 124, 124);
+}
+
+section.backimage > p{
+    background-color: rgba(0, 0, 0, 0.26);
+    max-width: 300px;
+}
+footer{
+    background-color: rgb(107, 106, 106);
+}
+
+footer p{
+    color: black;
+}
