@@ -16,9 +16,25 @@
             border: 1px solid black;
             padding: 10px;
         }
+        td.valor{
+            text-align: center;
+        }
+        td.esporte{
+            text-align: justify;
+            font-weight: bold;
+
+        }
         thead{
             background-color: gray;
             color: white;
+        }
+        thead  th{
+            position: sticky;
+            background-color: gray;
+            top: -1px;
+        }
+        tbody  tr:nth-child(even){
+            background-color: lightgray;
         }
        
 
@@ -26,64 +42,1615 @@
 </head>
 <body>
     <h1>uso de tabelas grandes</h1>
-    <table>
+    <table> 
         <thead>
-            <th>ESPORTES</th>
-            <th>%</th>
-            <th>MASCULINO</th>
-            <th>FEMININO</th>
+            <th scope="col">ESPORTES</th>
+            <th scope="col">%</th>
+            <th scope="col">MASCULINO</th>
+            <th scope="col">FEMININO</th>
         </thead>
         <tbody>
             <tr>
-                <td>Futebol</td>
-                <td>42,7%</td>
-                <td>66,2%</td>
-                <td>19,2%</td>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
             </tr>
             <tr>
-                <td>Caminhada</td>
-                <td>8,4%</td>
-                <td>6,4%</td>
-                <td>18,7%</td>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
 
             </tr>
             <tr>
-                <td>Voleibol</td>
-                <td>8,2%</td>
-                <td>6,1%</td>
-                <td>20,6%</td>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
             </tr>
             <tr>
-                <td>Academia</td>
-                <td>6,1%</td>
-                <td>3,8%</td>
-                <td>11,4%</td>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
             </tr>
             <tr>
-                <td>Natação</td>
-                <td>4,9%</td>
-                <td>4,4%</td>
-                <td>9,4%</td>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
             </tr>
             <tr>
-                <td>Corrida</td>
-                <td>4,1%</td>
-                <td>6,1%</td>
-                <td>4,8%</td>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
             </tr>
             <tr>
-                <td>Futsal</td>
-                <td>3,4%</td>
-                <td>4,0%</td>
-                <td>4,2%</td>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
 
             </tr>
             <tr>
-                <td>Musculação</td>
-                <td>3,2%</td>
-                <td>3,6%</td>
-                <td>4,7%</td>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
             </tr>
+
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futebol</td>
+                <td class="valor">42,7%</td>
+                <td class="valor">66,2%</td>
+                <td class="valor">19,2%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Caminhada</td>
+                <td class="valor">8,4%</td>
+                <td class="valor">6,4%</td>
+                <td class="valor">18,7%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Voleibol</td>
+                <td class="valor">8,2%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">20,6%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Academia</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">3,8%</td>
+                <td class="valor">11,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Natação</td>
+                <td class="valor">4,9%</td>
+                <td class="valor">4,4%</td>
+                <td class="valor">9,4%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Corrida</td>
+                <td class="valor">4,1%</td>
+                <td class="valor">6,1%</td>
+                <td class="valor">4,8%</td>
+            </tr>
+            <tr>
+                <td class="esporte">Futsal</td>
+                <td class="valor">3,4%</td>
+                <td class="valor">4,0%</td>
+                <td class="valor">4,2%</td>
+
+            </tr>
+            <tr>
+                <td class="esporte">Musculação</td>
+                <td class="valor">3,2%</td>
+                <td class="valor">3,6%</td>
+                <td class="valor">4,7%</td>
+            </tr>               
         </tbody>
     </table>
     
